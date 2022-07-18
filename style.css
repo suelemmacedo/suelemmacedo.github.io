@@ -22,3 +22,9 @@ h3{
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
+#foto {
+    display:inline-flexbox;
+    border-radius: 100%;
+    object-fit:scale-down
+    
+}
