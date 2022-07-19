@@ -15,14 +15,14 @@ p,ul {
 }
 
 h2, h3 {
-    color: black;
+    color: blue;
     font-family: 'Montserrat', sans-serif;
 }
 
 #foto {
     position: absolute;
     top: 50px;
-    left: 1290px;
+    left: 1200px;
     display: block;
     border-radius: 40%;
 
@@ -36,15 +36,11 @@ h2, h3 {
     
 }
 
-#footer {
-    width="1950";
-    height="10px";
-}
-#conteudo-principal {
+.conteudo-principal {
     max-width:40%;
     margin-left: 20px;    
 }
-#soft {
+.soft {
     max-width: 40%;
-    margin-left: 40px;
+    margin-left: 50px;
 }
