@@ -21,10 +21,10 @@ h2, h3 {
 
 #foto {
     position: absolute;
-    top: 70px;
-    left: 1280px;
+    top: 50px;
+    left: 1290px;
     display: block;
-    border-radius: 20%;
+    border-radius: 40%;
 
 }
 
