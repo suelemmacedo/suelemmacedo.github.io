@@ -3,28 +3,42 @@ h2 {
 }
 
 body {
-    background-color: #5F9EA0;
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
 
 }
 
-h1 {
-    color: #1C1C1C;
+p,
+ul {
+    color: rgb(50, 150, 200);
 }
 
-p,ul {
-    color: bisque;
-}
-h1{
+#main-title {
     font-family: 'Montserrat', sans-serif;
+    color: rgb(5, 153, 190);
+    font-size: 45px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    display: block;
+    position: absolute;
+    top: 0%
 }
-h3{
+
+h3 {
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
+
 #foto {
-    display:inline-flexbox;
-    border-radius: 100%;
-    object-fit:scale-down
-    
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    display: block;
+    border-radius: 50%;
+}
+
+#fundo-header {
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
