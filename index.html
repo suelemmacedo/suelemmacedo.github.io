@@ -1,136 +1,120 @@
-<!DOCTYPE html> <!-- Aqui você está declarando HTML5-->
-<html lang="en">
-<!-- Aqui você inicia um doc HTML-->
-
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <!--Aqui temos infos de config da página-->
-    <meta charset="UTF-8"> <!-- Adiciona tabela universal de caracteres, use sempre!-->
-    <title>Portfólio Web | Suelem Macedo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Suelem Macedo: Public Cloud, Linux, DevOps e Desenvolvimento Web. Projetos, tecnologias e experiência profissional.">
+  <meta name="theme-color" content="#0a1020">
+  <meta property="og:title" content="Suelem Macedo | Cloud & DevOps">
+  <meta property="og:description" content="Projetos e experiências em Cloud, Linux, DevOps e Desenvolvimento Web.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://suelemmacedo.github.io/">
+  <title>Suelem Macedo | Cloud & DevOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <div class="fundo-header">
-        <img id="foto" src="./Imagens/foto.jpeg" alt="Foto da criadora deste Portfólio" width=600px>
-        <div id="header">
-            <h1> Suelem Katherinne de Macedo Pinto </h1>
-        </div>
-    </div>
-</header>
-
-
 <body>
-    <!--Aqui fica o conteúdo da página!-->
-    <div class="conteudo-principal">
-        <br>
-        <h2> Sobre mim:</h2>
-        <br>
-        <p> 31 anos, brasileira, resido na cidade de Solânea - Paraíba.
-            <br>Estudante de Desenvolvimento Web na Trybe, estudante de Análise e Desenvolvimento de Software na Wyden e
-            Contadora.
-            <br> Amo viajar, curtir a vida, escutar músicas e aprender algo novo.
-            <br> Tenho um filhinho de 4 patas, mais conhecido como Pepe - um companheiro dorminhoco danadinho.
-        </p>
-        <br>
-        <h2>Habilidades</h2>
-        <br>
-        <h3>Soft Skills:</h3>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Ir ao início">SM<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
+  </header>
 
-    <div class="soft">
-
-        <ul>
-            <li>Empatia;</li>
-            <li>Relacionamento interpessoal;</li>
-            <li>Flexibilidade e adaptabildiade;</li>
-            <li>Boa escrita;</li>
-            <li>Colaboração.</li>
-        </ul>
-
-    </div>
-    <br>
-    <div class="conteudo-principal">
-        <h3> Hard Skills</h3>
-    </div>
-    <div class="soft">
-        <ul>
-            <li>HTML;</li>
-            <li>CSS.</li>
-        </ul>
-        
-    </div>
-
-    </main>
-    
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
- 
-    <section>
-
-        <h2 class="conteudo-principal">Indicações:</h2>
-        <br>
-        <a class="conteudo-principal" href=https://www.youtube.com/c/TemperoDrag>
-            <button>Tempero Drag</button>
-        </a>
-
+  <main id="conteudo">
+    <section class="hero section" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> Cloud · Linux · DevOps · Desenvolvimento Web</div>
+          <p class="hero-intro">Olá, eu sou</p>
+          <h1 id="hero-title">Suelem <span class="gradient-text">Macedo.</span></h1>
+          <p class="hero-role">Tecnologia que conecta <span class="accent">infraestrutura, automação e código.</span></p>
+          <p class="hero-description">Estagiária de Public Cloud na T-Systems e estudante de Análise e Desenvolvimento de Sistemas. Atuo com operações em nuvem e venho ampliando minha experiência em DevOps, automação e desenvolvimento.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="https://github.com/suelemmacedo" target="_blank" rel="noopener noreferrer">Meu GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-tags" aria-label="Áreas de atuação"><span>AWS</span><span>Azure</span><span>Linux</span><span>Terraform</span><span>Docker</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <div class="portrait-halo" aria-hidden="true"></div>
+            <img class="portrait" src="Imagens/foto.jpeg" alt="Foto de Suelem Macedo" width="400" height="400" loading="eager">
+            <div class="floating-label floating-label-top"><span class="mini-square"></span> Public Cloud</div>
+            <div class="floating-label floating-label-bottom">&lt; DevOps /&gt;</div>
+          </div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>PORTFÓLIO / 2026</span><a href="#sobre">Conheça minha trajetória <span aria-hidden="true">↓</span></a></div>
     </section>
 
+    <section class="section section-muted" id="sobre" aria-labelledby="sobre-title">
+      <div class="container two-column">
+        <div><p class="section-kicker">01 / SOBRE MIM</p><h2 id="sobre-title">Curiosidade para aprender.<br><span class="gradient-text">Vontade de construir.</span></h2></div>
+        <div class="prose"><p>Minha trajetória começou no desenvolvimento web e evoluiu para infraestrutura, Linux e computação em nuvem. Hoje, atuo com sustentação de ambientes cloud e participo de atividades relacionadas a automação e práticas DevOps.</p><p>Gosto de entender como os sistemas funcionam de ponta a ponta: do código à infraestrutura que os mantém disponíveis. Aqui compartilho projetos práticos e tecnologias que fazem parte dessa jornada.</p><a class="text-link" href="https://github.com/suelemmacedo" target="_blank" rel="noopener noreferrer">Acompanhe meus projetos no GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia" aria-labelledby="experiencia-title">
+      <div class="container"><p class="section-kicker">02 / TRAJETÓRIA</p><h2 id="experiencia-title">Experiência & formação</h2>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-date">ATUAL</div><div><h3>Estagiária de Public Cloud</h3><p class="item-subtitle">T-Systems do Brasil</p><p>Atuação em operações de ambientes Azure, AWS e GCP, troubleshooting, monitoramento, gestão de acessos e apoio a atividades de DevOps.</p></div></article>
+          <article class="timeline-item"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-date">FORMAÇÃO</div><div><h3>Análise e Desenvolvimento de Sistemas</h3><p class="item-subtitle">Graduação em andamento</p><p>Estudos em engenharia de software, desenvolvimento de aplicações e fundamentos de sistemas.</p></div></article>
+          <article class="timeline-item"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-date">CERTIFICAÇÃO</div><div><h3>AWS Certified Cloud Practitioner</h3><p class="item-subtitle">Amazon Web Services</p><p>Fundamentos de computação em nuvem, segurança, arquitetura e serviços AWS.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projetos" aria-labelledby="projetos-title">
+      <div class="container"><div class="section-heading"><div><p class="section-kicker">03 / PORTFÓLIO</p><h2 id="projetos-title">Projetos em destaque<span class="accent">.</span></h2></div><a class="text-link" href="https://github.com/suelemmacedo?tab=repositories" target="_blank" rel="noopener noreferrer">Todos os repositórios ↗</a></div>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-art art-purple" aria-hidden="true"><span class="art-label">01 / FRONTEND</span><span class="art-symbol">&lt;/&gt;</span></div><div class="project-content"><h3>BeProject</h3><p>Aplicação de consulta de funcionários com pesquisa, componentes reutilizáveis e layout responsivo.</p><div class="chip-row"><span>React</span><span>TypeScript</span><span>Vite</span></div><div class="project-links"><a href="https://suelemmacedo.github.io/BeProject/" target="_blank" rel="noopener noreferrer">Ver projeto ↗</a><a href="https://github.com/suelemmacedo/BeProject" target="_blank" rel="noopener noreferrer">Código ↗</a></div></div></article>
+          <article class="project-card"><div class="project-art art-blue" aria-hidden="true"><span class="art-label">02 / CLOUD</span><span class="art-symbol">☁</span></div><div class="project-content"><h3>Docker + AWS + Linux</h3><p>Laboratório prático com criação de imagens Docker, execução de contêineres e deploy na AWS.</p><div class="chip-row"><span>Docker</span><span>AWS</span><span>Linux</span></div><div class="project-links"><a href="https://github.com/suelemmacedo/Primeiro-Projeto-DevOps" target="_blank" rel="noopener noreferrer">Código no GitHub ↗</a></div></div></article>
+          <article class="project-card"><div class="project-art art-teal" aria-hidden="true"><span class="art-label">03 / INFRA AS CODE</span><span class="art-symbol">{ }</span></div><div class="project-content"><h3>Infraestrutura com Terraform</h3><p>Provisionamento de recursos AWS por infraestrutura como código, incluindo instâncias e configurações de rede.</p><div class="chip-row"><span>Terraform</span><span>AWS</span><span>IaC</span></div><div class="project-links"><a href="https://github.com/suelemmacedo/terraform-aws-infrastructure" target="_blank" rel="noopener noreferrer">Código no GitHub ↗</a></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tecnologias" aria-labelledby="tecnologias-title">
+      <div class="container"><p class="section-kicker">04 / STACK</p><h2 id="tecnologias-title">Tecnologias & ferramentas</h2><p class="section-lead">Ferramentas com as quais trabalho, estudo e desenvolvo projetos.</p>
+        <div class="stack-grid"><div class="stack-group"><span class="stack-icon" aria-hidden="true">☁</span><h3>Cloud & infraestrutura</h3><p>AWS · Azure · GCP · Linux · Redes</p></div><div class="stack-group"><span class="stack-icon" aria-hidden="true">⚙</span><h3>DevOps & automação</h3><p>Docker · Terraform · GitHub Actions · Git · CI/CD</p></div><div class="stack-group"><span class="stack-icon" aria-hidden="true">⌘</span><h3>Desenvolvimento</h3><p>HTML · CSS · JavaScript · TypeScript · React</p></div><div class="stack-group"><span class="stack-icon" aria-hidden="true">◇</span><h3>Plataformas & colaboração</h3><p>GitHub · Azure DevOps · Jira · Bitbucket · Bamboo</p></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato" aria-labelledby="contato-title"><div class="container contact-inner"><p class="section-kicker">05 / CONTATO</p><h2 id="contato-title">Vamos nos <span class="gradient-text">conectar?</span></h2><p>Estou sempre aberta a trocar ideias, aprender e conversar sobre tecnologia, Cloud e DevOps.</p><div class="hero-actions"><a class="button button-primary" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a class="button button-outline" href="https://github.com/suelemmacedo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div><p class="contact-note">Atualize o endereço do LinkedIn para o link do seu perfil antes de publicar.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#inicio">SM<span class="brand-dot">.</span></a><p>© <span id="year">2026</span> Suelem Macedo. Feito com HTML, CSS e JavaScript.</p><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    menuButton.addEventListener('click', () => {
+      const expanded = menuButton.getAttribute('aria-expanded') === 'true';
+      menuButton.setAttribute('aria-expanded', String(!expanded));
+      menuButton.setAttribute('aria-label', expanded ? 'Abrir menu' : 'Fechar menu');
+      nav.classList.toggle('is-open', !expanded);
+    });
+    nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+      nav.classList.remove('is-open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Abrir menu');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<div class="footer">
-    <footer>
-        <img src="./Imagens/2176460-desfocado-grande-panoramico-verao-fundo-multicolorido-gradiente-vetor.jpg" width="1850" height="10">
-    </footer>
-
-</div>
-
-
 </html>
